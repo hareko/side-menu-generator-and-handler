@@ -13,7 +13,7 @@ function SideMenu()
     'iopened.gif'
   ];
   var evs = [];     /* evs list */
-  var sld;            /* menu selected object */
+  var sld;          /* menu selected object */
   var that = this;
 
   var Init = function()
