@@ -8,7 +8,7 @@
 
 function $(id, obj)
   /*
-   *  Get element by Id
+   *  Get element by id
    */
   {
     var o = (typeof obj === 'undefined') ? document : obj.document;
