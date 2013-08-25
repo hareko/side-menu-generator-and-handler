@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+sidemenu configuration
+@package     Application 
+@author      Vallo Reima
+@copyright   (C)2012
+-->
+<cfg>
+  <sct>
+    <hme>
+      <nsw></nsw>
+      <sys></sys>
+      <sms></sms>
+      <abt></abt>
+    </hme>
+    <rgn>
+      <sdl></sdl>
+      <rsv></rsv>
+      <cls></cls>
+    </rgn>
+    <rpt>
+      <skd></skd>
+      <rvd></rvd>
+      <bkd></bkd>
+      <ovs></ovs>
+    </rpt>
+    <set>
+      <myd></myd>
+      <ity></ity>
+      <pfs></pfs>
+      <nws></nws>
+    </set>
+    <mtn>
+      <nms>
+        <pts></pts>
+        <kns></kns>
+        <tps></tps>
+        <sts></sts>
+      </nms>
+      <tpn></tpn>
+      <ovt></ovt>
+      <imp></imp>
+      <pfs></pfs>
+    </mtn>
+    <adm>
+      <prs>
+        <uts></uts>
+        <stf></stf>
+        <urs></urs>
+      </prs>
+      <nms>
+        <nck></nck>
+        <cus></cus>
+        <crs></crs>
+      </nms>
+      <rpt>
+        <aty></aty>
+        <log></log>
+        <smt></smt>
+      </rpt>
+      <set>
+        <lgc></lgc>
+        <cur></cur>
+        <smp></smp>
+        <ggl></ggl>
+        <pfs></pfs>
+      </set>
+    </adm>
+  </sct>
+</cfg>
