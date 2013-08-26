@@ -124,6 +124,10 @@ class Texts {
     }
     return $c;
   }
+  
+  public function __isset($code) {
+    return true;
+  }
 
   public function __set($code, $text) {
     if (gettype($text) == 'string') {
