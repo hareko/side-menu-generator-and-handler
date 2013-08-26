@@ -75,7 +75,7 @@ class Texts {
     }
     if ($err == '' && !$f) {
       $f = @file_get_contents("$dbn.sql");
-      if (!$f || !$lnk->exec($f)){
+      if (!$f || !$lnk->exec($f)) {
         $err = 'sql';
       }
     }
@@ -89,11 +89,14 @@ class Texts {
    *      rlt -- 1st row
    *      lng -- language token
    */ {
-    if (mb_strlen($lng) !== 2 || !isset($rlt[$lng])) {
+    if (empty($lng)) {
       $lng = self::LNG;
     }
-    if (isset($rlt[$lng])) {
+    if (array_key_exists($lng, $rlt) && array_key_exists(self::LNG, $rlt)) {
       do {
+        if (is_null($rlt[$lng])) {
+          $rlt[$lng] = $rlt[self::LNG];
+        }
         if (empty($rlt['type'])) {
           $this->txts['msg'][$rlt['code']] = $rlt[$lng];
         } else {
