@@ -35,7 +35,7 @@ The following files are included:
 8. *example.phtml*  - the shell template;
 9. *example.css*  - the shell an menu styles;
 
-The *Side menu generator and handler* is implemented in vRegistry solution (see [vregistrator.com]) and vrManual program (see [vrmanual.com]).
+The *Side menu generator and handler* is implemented in vRegistry solution (see [vregistry.com]) and vrManual program (see [vrm.vregistry.com]).
 
-  [vregistrator.com]: http://vregistrator.com/hlp/en
-  [vrmanual.com]: http://vrmanual.com
+  [vregistry.com]: http://app.vregistry.com/hlp/en
+  [vrm.vregistry.com]: http://vrm.vregistry.com
